@@ -2,7 +2,7 @@
 
 ### extruder linearity correction calibration object
 
-## Download: [ECOR_TOWER.gcode](PLA_MK3_ECOR_TOWER.gcode)
+## Download: [ECOR_TOWER.gcode](https://raw.githubusercontent.com/XPila/Prusa3D-Test-Objects/master/MK3/ECOR_TOWER/PLA_MK3_ECOR_TOWER.gcode)
 
 * Printer: MK3
 * Dimensions: 25x25x105mm
