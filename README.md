@@ -4,4 +4,4 @@ Testing and calibration objects/gcodes.
 
 ## MK3
 
-[ECOR_TOWER.gcode](./MK3/ECOR_TOWER/ECOR_TOWER.gcode)
+* [ECOR_TOWER](./MK3/ECOR_TOWER/)
