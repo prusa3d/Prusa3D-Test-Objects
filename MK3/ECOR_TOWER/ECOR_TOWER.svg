@@ -1,0 +1,78 @@
+<svg version="1.1" 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="400"
+ height="400"
+ viewBox="0 0 400 400"
+>
+ <defs>
+ <path id="arrow" d="M 0 0 L 5 0 M 0 0 L 3 1 M 0 0 L 3 -1" stroke="black" stroke-width="0.5" fill="none"/>
+ </defs>
+
+ <rect width="400" height="400" stroke="none" fill="#f8fcf0"/>
+  
+ <g id="picture" transform="scale(2.8)">
+
+ <text x="10" y="10"  font-size="8" font-family="Arial">ECOR_TOWER.gcode</text>
+ <text x="10" y="20"  font-size="7" font-family="Arial">calculating correction factor</text>
+
+ <g id="tower" transform="translate(20 30)">
+
+
+  <rect y="90" width="25" height="15"  stroke="none" fill="#606060"/>
+  <rect y="85" width="25" height="5"  stroke="none" fill="#707070"/>
+  <rect y="80" width="25" height="5"  stroke="none" fill="#787878"/>
+  <rect y="75" width="25" height="5"  stroke="none" fill="#808080"/>
+  <rect y="70" width="25" height="5"  stroke="none" fill="#888888"/>
+  <rect y="65" width="25" height="5"  stroke="none" fill="#909090"/>
+  <rect y="60" width="25" height="5"  stroke="none" fill="#989898"/>
+  <rect y="55" width="25" height="5"  stroke="none" fill="#a0a0a0"/>
+  <rect y="50" width="25" height="5"  stroke="none" fill="#a8a8a8"/>
+  <rect y="45" width="25" height="5"  stroke="none" fill="#b0b0b0"/>
+  <rect y="40" width="25" height="5"  stroke="none" fill="#b8b8b8"/>
+  <rect y="35" width="25" height="5"  stroke="none" fill="#c0c0c0"/>
+  <rect y="30" width="25" height="5"  stroke="none" fill="#c8c8c8"/>
+  <rect y="25" width="25" height="5"  stroke="none" fill="#d0d0d0"/>
+  <rect y="20" width="25" height="5"  stroke="none" fill="#d8d8d8"/>
+  <rect y="15" width="25" height="5"  stroke="none" fill="#e0e0e0"/>
+  <rect y="10" width="25" height="5"  stroke="none" fill="#e8e8e8"/>
+  <rect y="5" width="25" height="5"  stroke="none" fill="#f0f0f0"/>
+  <rect y="0" width="25" height="5"  stroke="none" fill="#f8f8f8"/>
+  <rect width="25" height="105"  stroke="black" stroke-width="0.5" fill="none"/>
+  <line x1="-5" y1="105" x2="30" y2="105" stroke="black" stroke-width="0.5"/>
+  <line x1="0" y1="90" x2="25" y2="90" stroke="black" stroke-width="0.2"/>
+  <line x1="0" y1="75" x2="25" y2="75" stroke="black" stroke-width="0.2"/>
+  <line x1="0" y1="60" x2="25" y2="60" stroke="black" stroke-width="0.2"/>
+  <line x1="0" y1="45" x2="25" y2="45" stroke="black" stroke-width="0.2"/>
+  <line x1="0" y1="30" x2="25" y2="30" stroke="black" stroke-width="0.2"/>
+  <line x1="0" y1="15" x2="25" y2="15" stroke="black" stroke-width="0.2"/>
+  <g id="arrows" transform="translate(30 0)">
+   <use y="97.5" xlink:href="#arrow"/>
+   <use y="87.5" xlink:href="#arrow"/>
+   <use y="82.5" xlink:href="#arrow"/>
+   <use y="77.5" xlink:href="#arrow"/>
+   <use y="52.5" xlink:href="#arrow"/>
+   <use y="2.5" xlink:href="#arrow"/>
+   <use y="7.5" xlink:href="#arrow"/>
+   <use y="12.5" xlink:href="#arrow"/>
+  </g>
+  <g id="texts" transform="translate(36 0)" font-size="5" font-family="Arial">
+   <text y="99">0 = off</text>
+   <text y="89">1.03</text>
+   <text y="84">1.04</text>
+   <text y="79">1.05</text>
+   <text y="54">1.10</text>
+   <text y="14">1.18</text>
+   <text y="9">1.19</text>
+   <text y="4">1.20</text>
+  </g>
+  <g id="factor" transform="translate(60 100) rotate(-90) ">
+   <path id="arrow" d="M 0 0 L 100 0 M 100 0 L 95 2 M 100 0 L 95 -2" stroke="black" stroke-width="0.5" fill="none"/>
+   <text x="20" y="-5"  font-size="8" font-family="Arial">correction factor</text>
+  </g>
+
+ </g>
+
+ </g>
+
+</svg>
