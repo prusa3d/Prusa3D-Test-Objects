@@ -1,0 +1,11 @@
+# Prusa MK3S MMU2S Test Objects
+
+All prints set for PLA and 200um layer height.
+
+- [Sheep.gcode](MK3SMMU2S_PLA_Sheep_200um_2H40M.gcode) 2 Hours 40 Minutes
+- [Lizard.gcode](MK3SMMU2S_PLA_Lizard_200um_3H50M.gcode) 3 Hours 50 Minutes
+- [Gear & Pliers.gcode](MK3SMMU2S_PLA_Gear_&_pliers_200um_6H50M.gcode) 6 Hours 50 Minutes
+- [Benchy.gcode](MK3SMMU2S_PLA_Benchy_150um_8H.gcode) 8 Hours
+- [Benchy & Handles.gcode](MK3SMMU2S_PLA_Benchy_&_handles_200um_15H.gcode) 15 Hours
+- [Jo Prusa](MK3SMMU2S_PLA_Jo_Prusa_white_beige_orange_grey_black_200um_22H.gcode) 22 Hours
+
